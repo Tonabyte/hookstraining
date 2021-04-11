@@ -4,7 +4,7 @@ import React from 'react'
 import './useStateComponentStyles.css';
 
 // Hooks
-import useCounter from '../hooks/useCounter';
+import useCounter from '../../hooks/useCounter';
 
 const CounterHookComponent = () => {
   const [state, add, subtract, reset ] = useCounter();

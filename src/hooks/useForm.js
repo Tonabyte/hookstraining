@@ -8,9 +8,12 @@ const useForm = (initialState = {}) => {
     [target.name]: target.value
   });
 
+  const clearForm = () => setFormState(initialState);
+
   return [
     formState,
     handleInputChange,
+    clearForm,
   ];
 };
 
